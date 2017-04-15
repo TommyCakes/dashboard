@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Start dashboard -->
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-3 block space tall">
+        <i class="weather-icon" aria-hidden="true"></i>
+        <h3 class='weather-description'></h3>
+        <h2 class='temperature'></h2>
+        <hr>
+        <h2 class="weather-location"></h2>
+      </div>
+
+      <div class="col-sm-9">
+        <!--   Begin first row -->
+        <div class="row">
+          <div class="col-sm-8 block pink">
+              <!-- song section -->
+            <div class="artist-info">
+              <div class="row">
+                  <div class="col-sm-5 col-sm-offset-1">
+                    <img class="album-artwork" alt="" />
+                  </div>
+                  <div class="col-sm-6">
+                    <h2 class="artist-name"></h2>
+                    <h4 class="artist-track"></h4>
+                    <div class="user-tag">
+                      <i class="fa fa-volume-up fa-1x" aria-hidden="true"></i>
+                    </div>
+                    <p class="username"></p>
+                 </div>
+               </div>
+              </div>
+             <!-- end song section -->
+            </div>
+
+          <div class="col-sm-4 block dark-grey">
+            <h3 class="time"></h3>
+            <h4 class="date"></h4>
+            <hr>
+          </div>
+        </div>
+  <!--     End first row -->
+
+  <!--     Begin second row -->
+        <div class="row">
+          <!-- <div class="col-sm-3 block dark-grey">
+          </div> -->
+
+          <div class="col-sm-4 block dark-blue">
+            <h3>WIFI IS UP</h3>
+            <hr>
+            <i class="fa fa-wifi fa-5x" aria-hidden="true"></i>
+          </div>
+
+          <div class="col-sm-8 block green">
+            <div class="games">
+              <h3> Now streaming</h3>
+              <h2 class="game-searched"></h2>
+              <div class="inputs">
+                <input class="form-control" id="game-input" type="text" name="" value="" placeholder="Pick a game">
+                <input class="btn btn-info btn-block" id="search-game" type="submit" name="" value="Search For Game">
+              </div>
+              <p class="error-message"></p>
+              <i class="fa fa-gamepad fa-3x hidden" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+  <!--     End second row -->
+      </div>
+    </div>
+
+
+  <!-- Begin third row -->
+    <div class="row">
+      <div class="col-sm-2 block blue notes">
+        <h3 class="name">TOMMY</h3>
+        <hr>
+        <ul class="todo-list-tommy">
+
+        </ul>
+      </div>
+      <div class="col-sm-2 block blue notes">
+        <h3 class="name">SHABZ</h3>
+        <hr>
+        <ul class="todo-list-shabz">
+
+        </ul>
+      </div>
+      <div class="col-sm-2 block blue notes">
+        <h3 class="name">STEVEN</h3>
+        <hr>
+        <ul class="todo-list-steven">
+
+        </ul>
+      </div>
+      <div class="col-sm-6 block black">
+        <div id="video-container">
+        </div>
+      </div>
+    </div>
+  <!-- End third row -->
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" charset="utf-8"></script>
+<script src="https://use.fontawesome.com/c187b3ca4d.js"></script>
+<script type="text/javascript"src="app.js" charset="utf-8"></script>
+</body>
+</html>
