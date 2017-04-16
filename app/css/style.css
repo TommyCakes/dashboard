@@ -1,252 +1,192 @@
 body {
-  background:#1A1D27;
+  background: #1A1D27;
   padding: 4px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 h1, h2, h3, h4, h5, p, li, a {
-  font-weight:200;
-  color:white;
-}
-
-/*.container-fluid {
-}*/
+  font-weight: 200;
+  color: white; }
 
 .block-std {
-  border:5px solid #1A1D27;
+  border: 5px solid #1A1D27;
   /*height:400px;*/
   height: 34vh;
-  text-align: center;
-}
+  text-align: center; }
 
 .block-medium {
-  border:5px solid #1A1D27;
+  border: 5px solid #1A1D27;
   /*height:400px;*/
   height: 44vh;
   text-align: center;
-  margin-top:-5%;
-}
+  margin-top: -5%; }
 
 .block-tall {
-  border:5px solid #1A1D27;
+  border: 5px solid #1A1D27;
   /*height:600px;*/
   height: 68vh;
-  text-align: center;
-}
+  text-align: center; }
 
 .space {
-  background: url('https://s-media-cache-ak0.pinimg.com/564x/91/dd/dc/91dddcfc784e4145dfc1d4e418431203.jpg');
-  background-size:cover;
-  padding-top:50px;
-}
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/91/dd/dc/91dddcfc784e4145dfc1d4e418431203.jpg");
+  background-size: cover;
+  padding-top: 50px; }
+
 .black {
-  background:black;
-}
+  background: black; }
 
 .blue {
-  background: #222E53;
-}
+  background: #222E53; }
 
 .pink {
-  background: url('https://www.xmple.com/wallpaper/gradient-black-pink-linear-1920x1080-c2-000000-ff1493-a-240-f-14.svg');
-  background-size:cover;
-}
+  background: url("https://www.xmple.com/wallpaper/gradient-black-pink-linear-1920x1080-c2-000000-ff1493-a-240-f-14.svg");
+  background-size: cover; }
+
 .dark-grey {
-  background: #25262E;
-}
+  background: #25262E; }
 
 .dark-blue {
-  background:#374E58;
-}
+  background: #374E58; }
 
 .green {
-  background:#297169;
-}
+  background: #297169; }
 
 .hack {
-  /*width: 20%;*/
-}
+  /*width: 20%;*/ }
+
 .artist-info {
-    width:100%;
-    color:white;
-    /*margin-top:30px;*/
-    margin-top: 4%;
-    text-align: left;
-}
-
-.artist-info .user-tag{
-  background:black;
-  opacity:0.4;
-  border-radius: 4px;
-  max-width:180px;
-  height: 30px;
-  padding: 4px;
-}
-
-.artist-info .username  {
-  position: relative;
-  top: -26px;
-  left: 40px;
-}
+  width: 100%;
+  color: white;
+  /*margin-top:30px;*/
+  margin-top: 4%;
+  text-align: left; }
+  .artist-info .user-tag {
+    background: black;
+    opacity: 0.4;
+    border-radius: 4px;
+    max-width: 180px;
+    height: 30px;
+    padding: 4px; }
+  .artist-info .username {
+    position: relative;
+    top: -26px;
+    left: 40px; }
 
 .artist-info img {
   /*width:230px;*/
-  width:50%;
-  min-width:230px;
-  margin:0px 10%;
-  display:inline-block;
-  float:right;
-  transtion:all 1s;
-}
+  width: 50%;
+  min-width: 230px;
+  margin: 0px 10%;
+  display: inline-block;
+  float: right;
+  transtion: all 1s; }
 
 .artist-info .artist-name {
-  transtion:all 1s;
-}
+  transtion: all 1s; }
 
 .time {
-  text-align:center;
-  margin-top:40px;
-  margin-bottom:-20px;
-  color:white;
-  padding:30px;
-  letter-spacing:5px;
-  font-weight:200;
-  font-size:40px;
-}
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -20px;
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  font-size: 40px; }
+
 .date {
-  text-align:center;
-  color:#AA474D;
-  font-size:16px;
-}
+  text-align: center;
+  color: #AA474D;
+  font-size: 16px; }
 
 .games {
-  text-align:center;
-  padding:40px;
-}
-.games h2 {
-  color:white;
-}
+  text-align: center;
+  padding: 40px; }
 
+.games h2 {
+  color: white; }
 
 .inputs input {
-  margin:10px;
-}
+  margin: 10px; }
 
 .fa-gamepad {
-  color:lightgrey;
-  opacity:0.3;
-  text-align: center;
-}
+  color: lightgrey;
+  opacity: 0.3;
+  text-align: center; }
 
 .fa-wifi {
-  color:white;
-  margin-top:80px;
+  color: white;
+  margin-top: 80px;
   /*font-size:200px !important;*/
-  opacity:0.3;
-  text-align: center;
-}
+  opacity: 0.3;
+  text-align: center; }
 
 .fa-cloud, .fa-sun-o {
-  color:white;
-  margin-top:80px;
+  color: white;
+  margin-top: 80px;
   /*font-size:200px !important;*/
-  opacity:0.8;
-  text-align: center;
-}
+  opacity: 0.8;
+  text-align: center; }
 
 #video {
   height: 30vh;
-  width: 100%;
-}
+  width: 100%; }
 
 .notes {
-  color:white;
-}
+  color: white; }
 
 .notes .name {
-  color:#298492;
-}
+  color: #298492; }
 
 .notes ul {
   list-style: none;
   text-align: center;
-  width: 80%;
-}
+  width: 80%; }
 
 .error-message {
-  color:red;
-}
+  color: red; }
 
 .flash {
-  animation: flash 1s infinite;
-}
+  animation: flash 1s infinite; }
 
 .wifi-connected {
-  animation: wifi-connected 1s infinite;
-}
+  animation: wifi-connected 1s infinite; }
 
 @keyframes flash {
-  0% { color: white;}
-  50% { color: lightblue;}
-  100% { color: white;}
-}
+  0% {
+    color: white; }
+  50% {
+    color: lightblue; }
+  100% {
+    color: white; } }
 
 @keyframes wifi-connected {
   0% {
-    transform: scale(1);
-  }
+    transform: scale(1); }
   25% {
-    transform: scale(1.1);
-  }
+    transform: scale(1.1); }
   50% {
-    transform: scale(1.1);
-  }
+    transform: scale(1.1); }
   75% {
-    transform: scale(1.1);
-  }
+    transform: scale(1.1); }
   100% {
-    transform: scale(1);
-  }
-}
-
+    transform: scale(1); } }
 
 /* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-
-    .block-std {
-      height:300px;
-    }
-
-    .block-tall {
-      height:600px;
-    }
-
-    .artist-info img {
-      margin: 5%;
-      width:150px;
-    }
-
-    .fa-wifi {
-      color:white;
-      margin-top:5%;
-      /*font-size:200px !important;*/
-      opacity:0.3;
-      text-align: center;
-    }
-
-    .games {
-      padding:2%;
-    }
-
-
-    .inputs input {
-      margin:10px;
-    }
-
-
-
-}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .block-std {
+    height: 300px; }
+  .block-tall {
+    height: 600px; }
+  .artist-info img {
+    margin: 5%;
+    width: 150px; }
+  .fa-wifi {
+    color: white;
+    margin-top: 5%;
+    /*font-size:200px !important;*/
+    opacity: 0.3;
+    text-align: center; }
+  .games {
+    padding: 2%; }
+  .inputs input {
+    margin: 10px; } }

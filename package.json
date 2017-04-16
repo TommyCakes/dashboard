@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyCakes/dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TommyCakes/dashboard/issues"
+  },
+  "homepage": "https://github.com/TommyCakes/dashboard#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "node-sass": "^4.5.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

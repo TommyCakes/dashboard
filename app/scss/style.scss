@@ -1,0 +1,249 @@
+$dashboardBlue: #1A1D27;
+$blue: $blue;
+$darkBlue: #374E58;
+$lightblue: lightblue;
+$white: #FFF;
+$darkGrey: #25262E;
+$lightGrey: lightgrey;
+$blackish: $blackish;
+$green: #297169;
+$red: #AA474D;
+
+body {
+  background:$dashboardBlue;
+  padding: 4px;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, p, li, a {
+  font-weight:200;
+  color:$white;
+}
+
+.block-std {
+  border:5px solid $dashboardBlue;
+  /*height:400px;*/
+  height: 34vh;
+  text-align: center;
+}
+
+.block-medium {
+  border:5px solid $dashboardBlue;
+  /*height:400px;*/
+  height: 44vh;
+  text-align: center;
+  margin-top:-5%;
+}
+
+.block-tall {
+  border:5px solid $dashboardBlue;
+  /*height:600px;*/
+  height: 68vh;
+  text-align: center;
+}
+
+.space {
+  background: url('https://s-media-cache-ak0.pinimg.com/564x/91/dd/dc/91dddcfc784e4145dfc1d4e418431203.jpg');
+  background-size:cover;
+  padding-top:50px;
+}
+
+.$blackish {
+  background:$blackish;
+}
+
+.blue {
+  background: $blue;
+}
+
+.pink {
+  background: url('https://www.xmple.com/wallpaper/gradient-black-pink-linear-1920x1080-c2-000000-ff1493-a-240-f-14.svg');
+  background-size:cover;
+}
+.dark-grey {
+  background: $darkGrey;
+}
+
+.dark-blue {
+  background:$darkBlue;
+}
+
+.green {
+  background:$green;
+}
+
+.artist-info {
+    width:100%;
+    color:$white;
+    /*margin-top:30px;*/
+    margin-top: 4%;
+    text-align: left;
+    .user-tag {
+      background:$blackish;
+      opacity:0.4;
+      border-radius: 4px;
+      max-width:180px;
+      height: 30px;
+      padding: 4px;
+    }
+    .username  {
+      position: relative;
+      top: -26px;
+      left: 40px;
+    }
+}
+
+.artist-info {
+  img {
+    /*width:230px;*/
+    width:50%;
+    min-width:230px;
+    margin:0px 10%;
+    display:inline-block;
+    float:right;
+    transtion:all 1s;
+  }
+  .artist-name {
+    transtion:all 1s;
+  }
+}
+
+.time {
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:-20px;
+  color:$white;
+  padding:30px;
+  letter-spacing:5px;
+  font-weight:200;
+  font-size:40px;
+}
+
+.date {
+  text-align:center;
+  color:$red;
+  font-size:16px;
+}
+
+.games {
+  text-align:center;
+  padding:40px;
+  h2 {
+    color:$white;
+  }
+}
+
+.inputs input {
+  margin:10px;
+}
+
+.fa-gamepad {
+  color:$lightGrey;
+  opacity:0.3;
+  text-align: center;
+}
+
+.fa-wifi {
+  color:$white;
+  margin-top:80px;
+  opacity:0.3;
+  text-align: center;
+}
+
+.fa-cloud, .fa-sun-o {
+  color:$white;
+  margin-top:80px;
+  opacity:0.8;
+  text-align: center;
+}
+
+#video {
+  height: 30vh;
+  width: 100%;
+}
+
+.notes {
+  color:$white;
+  .name {
+    color:#298492;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+.error-message {
+  color:$red;
+}
+
+.flash {
+  animation: flash 1s infinite;
+}
+
+.wifi-connected {
+  animation: wifi-connected 1s infinite;
+}
+
+@keyframes flash {
+  0% { color: $white;}
+  50% { color: $lightBlue;}
+  100% { color: $white;}
+}
+
+@keyframes wifi-connected {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+    .block-std {
+      height:300px;
+    }
+
+    .block-tall {
+      height:600px;
+    }
+
+    .artist-info img {
+      margin: 5%;
+      width:150px;
+    }
+
+    .fa-wifi {
+      color:$white;
+      margin-top:5%;
+      /*font-size:200px !important;*/
+      opacity:0.3;
+      text-align: center;
+    }
+
+    .games {
+      padding:2%;
+    }
+
+    .inputs input {
+      margin:10px;
+    }
+}
